@@ -9350,51 +9350,6 @@ body {
   }
 }
 
-/* line 1, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/countdown.css.scss */
-ul.countdown {
-  list-style: none;
-  margin: 50px 0;
-  padding: 0;
-  display: block;
-  text-align: center;
-  color: #fff;
-  font-weight: 100;
-}
-/* line 10, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/countdown.css.scss */
-ul.countdown li {
-  display: inline-block;
-}
-/* line 14, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/countdown.css.scss */
-ul.countdown li span {
-  font-size: 80px;
-  font-weight: 300;
-  line-height: 80px;
-}
-@media (max-width: 767px) {
-  /* line 14, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/countdown.css.scss */
-  ul.countdown li span {
-    font-size: 50px;
-    line-height: 50px;
-  }
-}
-/* line 25, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/countdown.css.scss */
-ul.countdown li.seperator {
-  font-size: 80px;
-  line-height: 70px;
-  vertical-align: top;
-}
-@media (max-width: 767px) {
-  /* line 25, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/countdown.css.scss */
-  ul.countdown li.seperator {
-    font-size: 50px;
-    line-height: 50px;
-  }
-}
-/* line 36, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/countdown.css.scss */
-ul.countdown li p {
-  font-size: 25px;
-}
-
 /*
 
 Fullstack
@@ -9436,13 +9391,6 @@ body {
   background: #f7f7f7;
 }
 
-/* line 39, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
-.hero {
-  background: url(../../assets/images/Group.png) 50% 50% no-repeat;
-  padding-top: 200px;
-  padding-bottom: 250px;
-}
-
 /* line 45, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
 .hero-icons {
   background: url(/assets/sky.jpg) 0% 100% no-repeat;
@@ -9478,16 +9426,6 @@ video {
   width: 100%;
   padding-top: 100px;
   padding-bottom: 40px;
-}
-
-/* line 77, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
-.page-heading {
-  font-weight: 400;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-  color: #fff;
-  margin-bottom: 0;
-  font-size: 50px !important;
-  line-height: 60px !important;
 }
 
 /* line 86, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
@@ -9576,21 +9514,10 @@ p.page-heading {
   background: #f5f5f5;
 }
 
-/* line 159, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
-.first-container .left-iphone {
-  background: url(../../assets/images/caro.png) 0% 100% no-repeat;
-  padding-top: 580px;
-}
-
 /* line 164, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
 .third-container .left-galaxy {
   background: url(../../assets/images/caro.png) 0% 100% no-repeat;
   padding-top: 580px;
-}
-
-/* line 169, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
-.first-container .right-content {
-  padding-top: 200px;
 }
 
 /* line 173, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
@@ -9614,35 +9541,10 @@ a:hover {
   text-decoration: none;
 }
 
-/* line 191, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
-.first-container a:hover,
-.first-container a:focus {
-  color: #2a6496;
-}
-
 /* line 196, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
 .third-container a:hover,
 .third-container a:focus {
   color: #2a6496;
-}
-
-/* line 200, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
-.second-container {
-  background-color: #CA5EE0;
-  color: #fff;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-/* line 207, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
-.second-container a {
-  color: #fff;
-}
-
-/* line 212, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
-.second-container a:hover,
-.second-container a:focus {
-  color: #e6e6e6;
 }
 
 /* line 216, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
@@ -9716,12 +9618,6 @@ a:hover {
     font-size: 40px;
     line-height: 44px;
     margin-bottom: 10px;
-  }
-
-  /* line 280, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
-  .first-container .right-content {
-    padding-top: 60px;
-    padding-bottom: 60px;
   }
 
   /* line 285, /Users/benjaminbenoudis/projects/the-wedding/app/assets/stylesheets/fullstack.css.scss */
