@@ -35,8 +35,7 @@ ul.countdown li span
   font-weight 300
   line-height 80px
 
-@media (max-width 767px)
-  ul.countdown li span
+  @media (max-width 767px)
     font-size 40px
     line-height 50px
 
@@ -46,8 +45,7 @@ ul.countdown li.seperator
   line-height 70px
   vertical-align top
 
-@media (max-width 767px)
-  ul.countdown li.seperator
+  @media (max-width 767px)
     font-size 40px
     line-height 50px
 
@@ -65,19 +63,35 @@ ul.countdown li p
   font-size 50px !important
   line-height 60px !important
 
-.second-container .page-heading
-  color #555
-  text-shadow 0 2px 5px rgba(255, 255, 255, 0.5)
-  padding-top 50px
+.second-container
+  padding 100px 0
+  .page-heading
+    color #555
+    text-shadow 0 2px 5px rgba(255, 255, 255, 0.5)
 
 .first-container
-  background url(../../assets/images/bgc.png) 0% 100% no-repeat
+  background url(../../assets/images/bgc.png) no-repeat center
+  background-size cover
   padding 200px 0
   .lead, .muted
     color #fff
     text-shadow 0 2px 5px rgba(0, 0, 0, 0.5)
 
+  @media (max-width 767px)
+    background url(../../assets/images/bgc.png) no-repeat 20% 50%
+
+.fifth-container
+  background url(../../assets/images/bgc2.png) 50% 50% no-repeat
+  padding 150px 0
+  .lead, .muted
+    color #fff
+    text-shadow 0 2px 5px rgba(0, 0, 0, 0.5)
+
 .hero
-  background url(../../assets/images/Group2.jpg) 50% 50% no-repeat
-  padding-top 200px
+  background url(../../assets/images/Group3.jpg) no-repeat center
+  background-size cover
+  padding-top 250px
   padding-bottom 250px
+
+  @media only screen and (min-width 1600px)
+    padding-top 400px
